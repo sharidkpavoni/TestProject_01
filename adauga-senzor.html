@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Web App v1.2</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="adauga-senzor-style.css">
+</head>
+<body>
+  <section class="home">
+    <header class="header">
+      <img id="settings-icon" src="/icons/settings.png" alt=""><img id="user-icon" src="/icons/user.png" alt="">
+    </header>
+
+    <div class="adauga-senzor-screen">
+      <div class="body">
+        
+        <div class="box-container">
+  
+          <div id="temp" class="box"><img class="icon-svg" src="/icons/temperature.svg" alt=""><p class="box-text">Temperatura</p><div class="box-value">21<small class="unit">o</small></div></div>
+  
+          <div id="umid" class="box"><img class="icon-svg" src="icons/humidity.svg" alt=""><p class="box-text">Umiditate</p><div class="box-value">21.5<small class="unit"> %</small></div></div>
+  
+          <div id="co2" class="box"><img class="icon-svg" src="icons/co2-cloud.svg" alt=""><p id="co2-text" class="box-text">Bioxid de carbon</p><div class="box-value">421<small class="unit">ppm</small></div></div>
+  
+          <div id="fum" class="box"><img class="icon-svg" src="icons/smoke.svg" alt=""><p class="box-text">Fum</p><div class="box-value">25<small class="unit"> ppm</small></div></div>
+          <a class="box-link" href="/index.html">
+            <div id="inapoi" class="box"><img id="inapoi-svg" class="icon-svg" src="icons/right-arrow.svg" alt=""><p class="box-text">Înapoi</p><div id="inapoi-value" class="box-value">25<small class="unit"> ppm</small></div></div>
+          </a>
+         
+        </div>
+      </div>
+    </div>
+
+    <div id="swup" class="transition-slide">
+      <footer class="footer">
+      <img id="footer-arrow" src="/icons/arrow.png" alt="">
+      <p id="footer-status">Totul este în regulă!</p>        <P id="footer-tragi-sus">Tragi sus pentru mai multe</P>
+      </footer>
+    </div>
+
+  </section>
+
+ 
+  
+</body>
+</html>

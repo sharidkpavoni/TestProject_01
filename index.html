@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Web App v1.2</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="home">
+
+    <header class="header">
+      <img id="settings-icon" src="/icons/settings.png" alt=""><div class="logo"><img id="logo-eon" src="/icons/logo_eon.png" alt=""><p id="home-master">Home Master</p> </div><img id="user-icon" src="/icons/user.png" alt="">      
+    </header>
+
+    
+
+    <div class="body">
+      <div class="recap-screen">
+        <p id="body-message">Bine ai revenit,</p>
+        <p id="body-message-name">Shari</p>
+        <div class="box-container">
+  
+          <div id="temp" class="box"><img class="icon-svg" src="/icons/temperature.svg" alt=""><p class="box-text">Temperatura</p><div class="box-value">21<small class="unit">o</small></div></div>
+  
+          <div id="umid" class="box"><img class="icon-svg" src="icons/humidity.svg" alt=""><p class="box-text">Umiditate</p><div class="box-value">21.5<small class="unit"> %</small></div></div>
+  
+          <div id="co2" class="box"><img class="icon-svg" src="icons/co2-cloud.svg" alt=""><p id="co2-text" class="box-text">Bioxid de carbon</p><div class="box-value">421<small class="unit">ppm</small></div></div>
+  
+          <div id="fum" class="box"><img class="icon-svg" src="icons/smoke.svg" alt=""><p class="box-text">Fum</p><div class="box-value">25<small class="unit"> ppm</small></div></div>
+  
+          <div id="o2" class="box"><img class="icon-svg" id="o2-svg" src="icons/o2.svg" alt=""><p class="box-text">Oxigen</p><div class="box-value">21<small class="unit"> %</small></div></div>
+
+          <button id="adauga-senzor" class="box" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="icon-svg" id="adauga-senzor-plus" src="icons/plus.svg" alt=""><p id="adauga-senzor-text" class="box-text">Adaugă un senzor...</p><div id="adauga-senzor-value" class="box-value">21<small class="unit"> %</small></div></button>
+  
+          
+        </div>
+
+      </div>
+
+    </div>
+    
+    <footer class="footer">
+      <img id="footer-arrow" src="/icons/arrow.png" alt="">
+      <p id="footer-status">Totul este în regulă!</p>        <P id="footer-tragi-sus">Tragi sus pentru mai multe</P>
+    </footer>
+
+   
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Adaugă un senzor...</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Închide</button>
+        <button type="button" class="btn btn-primary">Adaugă</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+    
+    
+    
+    
+  </section>
+
+  <!-- <script src="node_modules/swup/dist/swup.min.js"></script>
+  <script>
+    const swup = new Swup();
+  </script> -->
+  
+</body>
+</html>
+
